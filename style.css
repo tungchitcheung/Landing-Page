@@ -57,5 +57,19 @@ h2 {
 }
 
 img {
-    width: 250px;
+    width: auto;
+    height: 150px;
+}
+
+.text {
+    color: #1f2937a5;
+    font-size: 18px;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
 }

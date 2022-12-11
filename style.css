@@ -1,3 +1,40 @@
 .header {
     background-color: #1f2937;
     font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 0 200px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin-bottom: 100px
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}

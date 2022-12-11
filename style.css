@@ -1,6 +1,9 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .header {
     background-color: #1f2937;
-    font-family: 'Roboto', sans-serif;
     color: white;
     padding: 0 200px;
 }
@@ -45,4 +48,10 @@ button {
 html, body {
     margin: 0;
     padding: 0;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
 }

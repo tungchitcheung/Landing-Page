@@ -68,8 +68,32 @@ img {
 
 .body {
     display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.information {
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     gap: 32px;
+    margin-bottom: 100px;
+}
+
+.section {
+    background: #e5e7eb;
+    padding: 100px 200px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937
+}
+.book {
+    text-align: right;
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: 800;
 }

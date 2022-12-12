@@ -5,7 +5,7 @@ body {
 .header {
     background-color: #1f2937;
     color: white;
-    padding: 0 200px;
+    padding: 0 150px 100px 150px;
 }
 
 .logo {
@@ -15,6 +15,10 @@ body {
 h1 {
     font-size: 48px;
     font-weight: 900;
+}
+
+p {
+    font-size: 18px;
 }
 
 .navigation {
@@ -58,7 +62,7 @@ h2 {
 
 img {
     width: auto;
-    height: 150px;
+    height: 400px;
 }
 
 .text {
@@ -72,12 +76,18 @@ img {
     flex: 1;
 }
 
+.header-content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
 .information {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 32px;
+    gap: 16px;
     margin-bottom: 100px;
 }
 

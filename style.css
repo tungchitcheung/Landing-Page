@@ -107,3 +107,42 @@ img {
     font-size: 24px;
     font-weight: 800;
 }
+
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.action-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    width: 800px;
+    height: 100px;
+    align-items: center;
+    padding: 8px 100px;
+    margin: 60px 0;
+    border-radius: 15px;
+    color: white;
+}
+
+.action-one{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.action-two {
+    font-size: 18px;
+}
+
+button{
+    font-size: 20px;
+}
+
+.copyright {
+    background-color: #1f2937;
+    padding: 80px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
